@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root 'hikes#index'
+  get '/hikes', to: 'hikes#index'
   resources :users, only: [:new, :create]
   resources :sessions, only: [:new, :create, :destroy]
   get '/login', to: 'sessions#new'
