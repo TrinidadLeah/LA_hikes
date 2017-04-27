@@ -4,14 +4,19 @@
 
  <% @hikes.each do |hike| %>
 <div class="col s4">
-          <div class="card card-panel hoverable teal lighten-2">
+          <div class="card card-panel hoverable">
             <div class="card-image">
               <img src="<%= hike.image_uri %>">
               <span class="card-title"><%= hike.location %></span>
             </div>
             <div class="card-content">
-              <p><%= hike.description %></p>
+              <p class= "truncate"><%= hike.description %></p>
+              <div class="card-action">
+              <%= link_to 'Show More', hike_path(hike) %>
+              <%= link_to 'Edit', edit_hike_path(hike) %>
+              <%= link_to 'Remove', hike_path(hike), method: :delete, data: { confirm: 'Are you sure you want to delete this hike?' } %>
 
+            </div>
           </div>
         </div>
 </div>
