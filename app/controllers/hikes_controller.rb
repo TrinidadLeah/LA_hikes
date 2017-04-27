@@ -1,5 +1,7 @@
 class HikesController < ApplicationController
 
+  before_action :authorize, except: [:index, :show]
+
   def index
     @hikes = Hike.all
   end
