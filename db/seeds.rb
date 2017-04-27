@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Hike.destroy_all
+
+hikes = Hike.create({location: "Runyon Canyon", image_uri: "http://www.vetprofessionals.com/catprofessional/images/home-cat.jpg", description: "difficult!"})

@@ -1,1 +1,22 @@
+<h3>Hikes</h3>
+ <div class="container">
+<div class="row">
+
+ <% @hikes.each do |hike| %>
+<div class="col s4">
+          <div class="card card-panel hoverable teal lighten-2">
+            <div class="card-image">
+              <img src="<%= hike.image_uri %>">
+              <span class="card-title"><%= hike.location %></span>
+            </div>
+            <div class="card-content">
+              <p><%= hike.description %></p>
+
+          </div>
+        </div>
+</div>
+       <% end %>
+</div>
+</div>
+
 
