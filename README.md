@@ -5,7 +5,7 @@
 
 ### Description
 
-I made this Ruby app for my first project during General Assembly's Web Development Immersive program.  It's a place where
+I made this Ruby app for my second project during General Assembly's Web Development Immersive program.  It's a place where you can log your favorite hikes in the LA area, and see hikes others have taken.
 
 
 
