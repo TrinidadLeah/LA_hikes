@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>LA Hikes</title>
+    <link rel="shortcut icon" href="http://i.imgur.com/zwSynW9.png" />
     <%= csrf_meta_tags %>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -13,7 +14,7 @@
 
    <nav>
      <div class="nav-wrapper">
-       <a href="/" class="brand-logo right">LA Hikes</a>
+       <a href="/" class="brand-logo right"><img class ="logo" src="http://i.imgur.com/ZR3hnTO.png" alt="logo"></a>
        <ul id="nav-mobile" class="left hide-on-med-and-down">
          <% if current_user %>
           <li> Welcome, <%= current_user.name %></li>
