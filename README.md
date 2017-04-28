@@ -21,7 +21,7 @@ I made this Ruby app for my second project during General Assembly's Web Develop
 
 ## Getting Started
 
-**See it online here:** [http://TrinidadLeah.github.io/Project1/](http://TrinidadLeah.github.io/Project1/)
+**See it online here:** [https://lahikes.herokuapp.com/)
 
 ## Next Steps:
 
