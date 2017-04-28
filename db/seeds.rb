@@ -14,7 +14,7 @@ hikes = [{
   user: user,
   location: "Runyon Canyon",
   image_uri: "http://i.imgur.com/kq28FU1.jpg",
-  description: "Hammock before they sold out vaporware, celiac thundercats heirloom wayfarers sartorial small batch. Marfa plaid vice before they sold out artisan scenester. Ugh post-ironic whatever fashion axe. Kale chips helvetica subway tile listicle."
+  description: "Hammock before they sold out vaporware, celiac thundercats heirloom wayfarers sartorial small batch. Marfa plaid vice before they sold out artisan scenester. Ugh post-ironic whatever fashion axe. Kale chips helvetica subway tile listicle.Lo-fi pinterest shabby chic drinking vinegar four loko man braid messenger bag. Letterpress schlitz ramps cold-pressed, biodiesel godard lo-fi synth photo booth fam vexillologist. Chicharrones street art hashtag, pinterest wolf vape selvage live-edge fashion axe DIY kickstarter food truck direct trade prism. Mumblecore chillwave asymmetrical shoreditch lumbersexual, fanny pack freegan tofu glossier distillery disrupt kogi messenger bag food truck kombucha. Neutra pok pok quinoa gentrify lyft blue bottle. Mustache humblebrag franzen leggings. Banh mi pok pok chia vape la croix, jean shorts pug chicharrones."
 }, {
   user: user,
   location: "Chantry Flats",

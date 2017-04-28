@@ -1,22 +1,36 @@
 
-body, html {
+body,
+html {
     height: 100%;
 }
 .logo {
-height: 44px;
-width:44px;
-margin-right: 10px;
-margin-top: 10px;
+    height: 44px;
+    width: 44px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 .hero-image {
-
     background-image: url("http://i.imgur.com/Q2jtzSi.png");
-
     height: 70%;
-
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.username {
+
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.blurb {
+text-align: center;
+margin:0 auto;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+.materialboxed {
+padding-top: 50px;
+
 }

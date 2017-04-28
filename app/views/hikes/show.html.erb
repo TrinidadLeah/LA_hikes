@@ -1,12 +1,10 @@
 <div class="container">
-  <img class="materialboxed" width="650" src="<%= @hike.image_uri %>">
-  <h1><%= @hike.location %></h1>
-  <div>
-    <p><%= @hike.description %></p>
-  </div>
-  <%= link_to 'Edit', edit_hike_path(@hike) %> |
-  <%= link_to 'Back', hikes_path %>
+   <img class="materialboxed" width="650" src="<%= @hike.image_uri %>">
+   <h1><%= @hike.location %></h1>
+   <div>
+      <p><%= @hike.description %></p>
+   </div>
+   <%= link_to 'Edit', edit_hike_path(@hike) %> |
+   <%= link_to 'Back', hikes_path %>
 </div>
-
-
 
