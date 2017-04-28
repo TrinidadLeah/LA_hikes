@@ -1,24 +1,28 @@
-# README
+# LA Hikes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### By: Trinidad Araujo
+---
 
-Things you may want to cover:
+### Description
 
-* Ruby version
+I made this Ruby app for my first project during General Assembly's Web Development Immersive program.  It's a place where
 
-* System dependencies
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+![alt text](http://i.imgur.com/97qHJh2.png)
 
-* How to run the test suite
+### Technologies Used
+1. Ruby
+2. HTML/CSS
+ + Materialize
+3. Rails
+4. Heroku
 
-* Services (job queues, cache servers, search engines, etc.)
+## Getting Started
 
-* Deployment instructions
+**See it online here:** [http://TrinidadLeah.github.io/Project1/](http://TrinidadLeah.github.io/Project1/)
 
-* ...
+## Next Steps:
+
+I'd love to do further styling and enable a "like" feature.
