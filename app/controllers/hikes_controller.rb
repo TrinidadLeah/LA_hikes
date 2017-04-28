@@ -1,5 +1,5 @@
 class HikesController < ApplicationController
-
+ before_action :current_user, only: [:show, :edit, :update, :destroy]
   before_action :authorize, except: [:index, :show]
 
   def index
